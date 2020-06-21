@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+
+class time{
+    public: int h,m,s;
+	};
+int main()
+{
+	time t;
+   cout<<"Enter hours, minute and seconds"<<endl;
+   cin>>t.h>>t.m>>t.s;
+   cout<<"Entered Time\t"<<t.h<<":"<<t.m<<":"<<t.s<<endl;
+   cout<<"Entered time in seconds\t"<<t.h*3600+t.m*60+t.s<<endl;
+   return 0;
+}
